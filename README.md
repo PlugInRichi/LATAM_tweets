@@ -12,5 +12,7 @@ docker build -t latam_tweets .
 docker run -d -p 8888:8888 latam_tweets -v .:/opt/project \ 
     jupyter notebook --ip 0.0.0.0  --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' 
 ```
+Y finalmente navegar con Jupyter en la ruta http://127.0.0.1:8888/tree
 
-http://127.0.0.1:8888/tree
+## Resultados
+Los resultados del desafío pueden verse en este [notebook](src/Farmers_Protest_Tweets_Analysis.ipynb)
